@@ -1,0 +1,89 @@
+{
+	"zh":{
+		"introduce":["一. 质押资产和流程","二. 质押奖励计算规则","三. 收益分配"],
+		"introduce_header": "M² Pool玩法细则",
+		"introduce_header_small": "M² Pool质押功能规则",
+		"introduce_list":[
+			["1.1 用户可以通过在山海世界的系统上进行质押操作，将一定数量的U（USDT）和$MAW授权并锁定以获取奖励。","1.2 在质押的过程中，用户投入的$MAW代币将被打入一个公开透明的地址作为山海世界新游戏的奖池，相应的U资金则将用于购买新的$MAW代币。","1.3 本机制仅对参与过MAW矿池质押NFT的用户有效，即须购买盲盒后并参与质押该NFT"],
+			["2.1 用户根据投入的U资金数量和质押的$MAW代币，按照金本位进行计算", "2.2 不同投入值对应不同的质押周期和奖励倍数（质押周期结束后，最终都将获得投入的总价值两倍的利益出局）：", "V1：100U ≤ 投入金本位＜ 5000U，质押周期为90天，奖励为投入金本位的2倍。", "V2：5000U ≤ 投入金本位 ＜10000U，质押周期为60天，奖励为投入金本位的2倍。","V3：10000U ≤ 投入金本位 ，质押周期为45天，奖励为投入金本位的2倍。"],
+			["每日释放金本位相对应价值的$MAW"]
+		],
+		"tips":[
+			"1 用户参与质押前需仔细阅读并理解本规则，确保清楚质押操作及风险。",
+			"2 质押奖励计划可能根据系统运营状况进行调整，用户需关注平台公告。",
+			"3 质押操作涉及到市场交易风险，请用户根据自身风险承受能力谨慎操作。",
+			"以上规则为质押功能的详细说明，用户在参与质押前应仔细阅读并理解规则内容。如有任何疑问，请随时联我们的系客服团队。"
+		],
+		"stake": "质押",
+		"profit":"待领取收益",
+		"input_tip1":"请输入USDT数量",
+		"input_tip2": "请输入MAW数量",
+		"balance": "余额",
+		"approve": "授权",
+		"claim": "领取",
+		"record": "质押记录",
+		"tips_home": "注意事项",
+		"order_expiretime": "到期时间",
+		"amount": "数量",
+		"rule": "规则",
+		"rule_introduce": "规则介绍",
+		"lang": "简体中文",
+		"have_claim": "已领取收益",
+		"waiting_claim": "待释放收益",
+		"blind": "绑定推荐人",
+		"inputrefertip": "请输入您推荐人的钱包",
+		"bindbtn": "绑定推荐人",
+		"bindtip":"*复制您推荐人的钱包地址并输入对话框中，成功激活推荐人钱包地址后不可更改"
+	},
+	"en":{
+		"introduce":["1. Staked Assets and Process", "2. Staking Rewards Calculation Rules", "3. Rewards Distribution"],
+		"introduce_header":"Staking Rules of M² Pool",
+		"introduce_header_small":"Staking Function Rules",
+		"introduce_list":[
+			[
+				"1.1 Users can engage in staking on the MSW platform, they can authorize a certain amount of U (USDT) and $MAW, which are then be locked to earn rewards.",
+				"1.2 During the staking process, the $MAW tokens contributed by users will be transferred into the public and transparent prize pool of the MSW New Game, while the corresponding amount of USDT will be used to purchase new $MAW tokens.",
+				"1.3 This mechanism is only valid for users who have participated in staking NFTs in the MAW mining pool, i.e., they must have purchased a blind box and participated in staking the NFT."
+				
+			],[
+				"2.1 The calculation is based on the user's invested amount in USDT and staked $MAW tokens, following the gold standard.",
+				"2.2 Different investment values correspond to different stake periods and reward multipliers (at the end of the staking period, participants will receive benefits worth twice their invested total value):",
+				"V1: 100U ≤ Total Investment ＜ 5000U, the staking period is 90 days, the reward is 2 times the total investment.",
+				"V2: 5000U ≤ Total Investment ＜ 10000U, the staking period is 60 days, the reward is 2 times the total investment.",
+				"V3: Total Investment ≥ 10000U, the staking period is 45 days, the reward is 2 times the total investment."
+				
+			],
+			["Daily release of the corresponding value of $MAW based on the gold standard."]
+			
+		],
+		"tips":[
+			"1 Before participating in staking, users are required to carefully read and understand these rules to ensure a clear comprehension of the staking process and associated risks.",
+			"2 The staking reward program may be adjusted based on the operational status of the platform; users should pay attention to platform announcements.",
+			"3 Staking operations involve market trading risks. Users should exercise caution and act prudently based on their own risk tolerance.",
+			"",
+			"The above rules is a detailed explanation of the staking feature. Users should read and understand the content of these rules carefully before engaging in staking. If you have any questions, please feel free to contact our customer service team at any time"
+		],
+		"stake":"Stake",
+		"profit":"Profit",
+		"input_tip1":"Please input usdt amount",
+		"input_tip2": "Please input maw amount",
+		"balance": "Balance",
+		"approve": "Approve",
+		"claim": "Claim",
+		"record": "Stake Record",
+		"tips_home": "Precautions",
+		"order_expiretime": "Expire time",
+		"amount": "amount",
+		"rule_introduce": "Rule introduce",
+		
+		"rule": "Rule",
+		"lang":"English",
+		"have_claim": "Have claim",
+		"waiting_claim": "Waiting claim",
+		"blind":"Bind Referrer",
+		"inputrefertip": "Please input your referrer address",
+		"bindbtn": "Blind",
+		"bindtip": "* Copy your referrer's wallet address and enter it into the dialog box. After successfully activating the recommender's wallet address, it cannot be changed."
+	}
+	
+}
