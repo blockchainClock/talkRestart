@@ -1,19 +1,19 @@
 
 
-const HomeIndex = () =>
-	import('../components/HomeIndex')
-const Game = () =>
-	import('../components/Game/Game')	
-
+const DownLoad = () =>
+	import('../components/DownLoad')
+	
+// const HomeIndex = () =>
+// 	import('../components/HomeIndex')
 export default {
 	base: '/',
 	routes: [{
-		path: '/HomeIndex',
-		name: 'HomeIndex',
-		component: HomeIndex
+		path: '/',
+		name: 'DownLoad',
+		component: DownLoad
 	},{
-		path: '/Game',
-		name: 'Game',
-		component: Game
+		path: '/DownLoad',
+		name: 'DownLoad',
+		component: DownLoad
 	}]
 }

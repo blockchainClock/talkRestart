@@ -1,21 +1,25 @@
 <template>
 	<div id="app">
-		<TopBar></TopBar>
+		<!-- <HomeIndex ></HomeIndex> -->
+		<DownLoad></DownLoad>
+		<!-- <TopBar></TopBar>
+		
 		<HomeIndex v-if="tabIndex == 0" @nftDetail="changeTab" ></HomeIndex>
 		<UserNft v-else-if="tabIndex == 1" @nftDetail="changeTab" ></UserNft>
 		<NftMarket  v-else-if="tabIndex == 2" ></NftMarket>
 		<NftDetail  v-else-if="tabIndex == -1"></NftDetail>
-		<NavBar @changeTab="changeTab"></NavBar>
+		<NavBar @changeTab="changeTab"></NavBar> -->
 	</div>
 </template>
 
 <script>
 	import HomeIndex  from './components/HomeIndex.vue';
-	import UserNft  from './components/UserNft.vue';
-	import NftDetail  from './components/NftDetail.vue';
-	import NftMarket  from './components/NftMarket.vue';
-	import NavBar from './components/GlobalComp/NavBar.vue';
-	import TopBar from "./components/GlobalComp/TopBar.vue";
+	import DownLoad  from './components/DownLoad.vue';
+	// import UserNft  from './components/UserNft.vue';
+	// import NftDetail  from './components/NftDetail.vue';
+	// import NftMarket  from './components/NftMarket.vue';
+	// import NavBar from './components/GlobalComp/NavBar.vue';
+	// import TopBar from "./components/GlobalComp/TopBar.vue";
 	
 	export default {
 		name: 'App',
@@ -29,11 +33,12 @@
 		},
 		components:{
 			HomeIndex,
-			UserNft,
-			NavBar,
-			NftDetail,
-			NftMarket,
-			TopBar
+			DownLoad
+			// UserNft,
+			// NavBar,
+			// NftDetail,
+			// NftMarket,
+			// TopBar
 		},
 		async beforeMount() {
 			console.log(window.screen.height, window.screen.width)
@@ -67,15 +72,13 @@
 		margin: 0;
 		font-family: 'gamefont';
 		font-weight: 500;
-		background: #f5f7f7;
+		background: #000;
 	}
 	
 	#app{
 		width: 100%;
 		position: absolute;
 		margin: 0 auto;
-		height: 100vh;
-		overflow-y: hidden;
 		
 	}
 	.account{

@@ -7,16 +7,17 @@ import lang from './lang/lang.js'
 import VueRouter from 'vue-router'
 import VueCookies from 'vue-cookies';
 import JSEncrypt from 'jsencrypt';
-import WebApp from '@twa-dev/sdk';
+// import WebApp from '@twa-dev/sdk';
 import VueClipboard from 'vue-clipboard2'
-
+import 'animate.css';
+// import 'wow.css';
 Vue.use(VueClipboard)
 Vue.use(VueCookies);
 Vue.prototype.$cookie = VueCookies;
 Vue.prototype.$lang = lang;
-Vue.prototype.$WebApp= WebApp;
-WebApp.ready();
-WebApp.expand();
+// Vue.prototype.$WebApp= WebApp;
+// WebApp.ready();
+// WebApp.expand();
 // axios.defaults.baseURL = 'http://pool.shukejujiao.com/webapi';
 // axios.defaults.baseURL = window.location.origin + '/webapi';
 // let token = VueCookies.get('token')
@@ -27,8 +28,8 @@ Vue.config.productionTip = false
 
 
 
-let langTYPE = !localStorage.getItem('lang') || localStorage.getItem('lang') == 'false' ? false : true;
-store.commit('SET_LANG', langTYPE)
+// let langTYPE = !localStorage.getItem('lang') || localStorage.getItem('lang') == 'false' ? false : true;
+// store.commit('SET_LANG', langTYPE)
 
 Vue.use(VueRouter);
 
